@@ -1,6 +1,4 @@
-The project is exactly what the title says, yes.
+A small calculator that [TheFlatTenorSax](github.com/TheFlatTenorSax) and I coded together.
 
-The program asks the user for a question first, before giving a random output as a response.
-After, the program asks the user if they want to "shake the ball" again.
-
-Credits to [TheFlatTenorSax](https://github.com/TheFlatTenorSax) for help with debugging.
+The program first asks the user for a number, then an operation, and then another number.
+The answer is given accordingly.
