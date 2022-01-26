@@ -27,22 +27,22 @@ public class Calculator {
       System.out.println("Give me another number!");
       int second = calc.nextInt();
 
-        //Gives output accordingly if the user runs an addition equation
+        //Gives an output accordingly if the user runs an addition equation
       if(input == '+') {
           int addanswer = first + second;
           System.out.println("Your answer is " + addanswer);
 
-        //Gives output accoridingly if the user runs a subtraction equation
+        //Gives an output accordingly if the user runs a subtraction equation
       } else if(input == '-') {
           int subanswer = first - second;
           System.out.println("Your answer is " + subanswer);
 
-          //Gives output accordingly if the user runs a mutliplication equation
+          //Gives an output accordingly if the user runs a mutliplication equation
       } else if(input == '*') {
           int mulanswer = first * second;
           System.out.println("Your answer is " + mulanswer);
 
-          //Gives output accordingly if the user runs a division equation
+          //Gives an output accordingly if the user runs a division equation
       } else if(input == '/') {
           int divanswer = first / second;
           System.out.println("Your answer is " + divanswer);
