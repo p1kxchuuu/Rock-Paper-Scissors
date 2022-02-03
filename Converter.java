@@ -1,7 +1,7 @@
 //Importing to handle the scanners
 import java.util.Scanner;
 
-public class CurrencyConverter {
+public class Converter {
     public static void main(String[] args) {
         //First scanner to handle the currency inputted by the user
         Scanner currency = new Scanner(System.in);
