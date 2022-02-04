@@ -1,6 +1,6 @@
-A simple program that converts United States dollars to a set list of global currencies listed.
+A program that converts fahrenheit to celsius, and vice versa.
 
-The program first asks the user to input an amount of money in USD, then choose a currency listed to convert to.
-The output is given accordingly. 
+The user is first asked for the temperature to convert, and then a temperature.
+The output is given accordingly.
 
-I may continue to add more currencies in the future.
+Please use capitals when answering.
