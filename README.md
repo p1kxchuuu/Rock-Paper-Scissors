@@ -1,6 +1,1 @@
-A program that converts fahrenheit to celsius, and vice versa.
-
-The user is first asked for the temperature to convert, and then a temperature.
-The output is given accordingly.
-
-Please use capitals when answering.
+currently a work in progress, but yeah you saw the name of the project lol
