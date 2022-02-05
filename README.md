@@ -5,4 +5,4 @@ The winner is determined once both the user and system have answered.
 
 Please use capitals when answering prompts. 
 
-Credits to [TheFlatTenorSax](https://github.com/TheFlatTenorSax) for help with scoring layout.
+Credits to [TheFlatTenorSax](https://github.com/TheFlatTenorSax) for help with the scoring layout.
