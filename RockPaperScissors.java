@@ -43,7 +43,7 @@ public class RockPaperScissors {
             if(userAnswer.equals("Yes")) {
 
                     //Array selectors
-                int select = randomizer.nextInt(game.length);
+                int botinput = randomizer.nextInt(game.length);
                 int same = tie.nextInt(tiewords.length);
                 int loss = loser.nextInt(losewords.length);
 
@@ -60,51 +60,51 @@ public class RockPaperScissors {
                     //Prompts the user to give their input
                 System.out.println("SHOOT! (Give your input)");
                 userGiven = paper.nextLine();
-                System.out.println("Bot says: " + game[select]);
+                System.out.println("Bot says: " + game[botinput]);
 
                     //System gives rock
-                if(select == 0) {
+                if(botinput == 0) {
                         //If the user says paper, the win message is given
                     if(userGiven.equals("Paper")) {
                         System.out.println("You won!");
                         //If the user says rock, the tie message is given
                     } else if(userGiven.equals("Rock")) {
-                        System.out.println("You tied for rock. " + tiewords[select]);
+                        System.out.println("You tied for rock. " + tiewords[same]);
                         //If the user says scissors, the lose message is given
                     } else if(userGiven.equals("Scissors")) {
-                        System.out.println(losewords[select] + " (In other words, you lost)");
+                        System.out.println(losewords[loss] + " (In other words, you lost)");
                         //If anything else is inputted, the error message is given
                     } else {
                         System.out.println("That is an invalid answer, please try again.");
                     }
 
                     //System gives paper
-                } else if(select == 1) {
+                } else if(botinput == 1) {
                         //If the user says scissors, the win message is given
                     if(userGiven.equals("Scissors")) {
                         System.out.println("You won!");
                         //If the user says paper, the tie message is given
                     } else if(userGiven.equals("Paper")) {
-                        System.out.println("You tied for paper. " + tiewords[select]);
+                        System.out.println("You tied for paper. " + tiewords[same]);
                         //If the user says rock, the lose message is given
                     } else if(userGiven.equals("Rock")) {
-                        System.out.println(losewords[select] + " (In other words, you lost)");
+                        System.out.println(losewords[loss] + " (In other words, you lost)");
                         //If anything else is inputted, the error message is given
                     } else {
                         System.out.println("That is an invalid answer, please try again.");
                     }
 
                     //System gives scissors
-                } else if(select == 2) {
+                } else if(botinput == 2) {
                         //If the user says rock, the win message is given
                     if(userGiven.equals("Rock")) {
                         System.out.println("You won!");
                         //If the user says scissors, the tie message is given
                     } else if(userGiven.equals("Scissors")) {
-                        System.out.println("You tied for scissors. " + tiewords[select]);
+                        System.out.println("You tied for scissors. " + tiewords[same]);
                         //If the user says paper, the lose message is given
                     } else if(userGiven.equals("Paper")) {
-                        System.out.println(losewords[select] + " (In other words, you lost");
+                        System.out.println(losewords[loss] + " (In other words, you lost");
                         //If anything else is inputted, the error message is given
                     } else {
                         System.out.println("That is an invalid answer, please try again.");
