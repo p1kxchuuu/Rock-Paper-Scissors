@@ -94,9 +94,9 @@ public class RockPaperScissors {
                         System.out.println("That is an invalid answer, please try again.");
                     }
 
-                    //System gives 
+                    //System gives scissors
                 } else if(select == 2) {
-                        //If the user says rock, te win message is given
+                        //If the user says rock, the win message is given
                     if(userGiven.equals("Rock")) {
                         System.out.println("You won!");
                         //If the user says scissors, the tie message is given
