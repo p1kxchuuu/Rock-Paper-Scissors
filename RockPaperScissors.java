@@ -132,6 +132,7 @@ public class RockPaperScissors {
                 //If anything else is inputted, the program is ended
             } else {
                 System.out.println("…I'm gonna assume you meant no.");
+                loopCheck = false;
             }
         }
 
